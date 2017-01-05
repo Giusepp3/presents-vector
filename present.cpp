@@ -96,5 +96,11 @@ namespace Regali{
 		strcpy(forma,f);
 	}
 	
+	bool present::operator==(const present & b)const{
+		return ((strcmp(this->destinatario,b.destinatario)==0)&&this->peso==b.peso&&(strcmp(this->forma,b.forma)==0));
+	}
 	
+	bool present::operator!=(const present & b)const{
+		return !(*this==b);
+	}
 }
