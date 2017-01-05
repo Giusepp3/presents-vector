@@ -28,6 +28,8 @@ namespace Regali{
 			char* get_for()const;
 			friend ostream & operator<<(ostream & os, const present & p);
 			friend istream & operator>>(istream & in, present & p);
+			bool operator==(const present &)const;
+			bool operator!=(const present &)const;
 			
 	};
 	
