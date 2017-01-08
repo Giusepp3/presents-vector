@@ -31,6 +31,7 @@ namespace Regali{
 			bool operator==(const present &)const;
 			bool operator!=(const present &)const;
 			
+			
 	};
 	
 	

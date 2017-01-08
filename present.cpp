@@ -102,5 +102,5 @@ namespace Regali{
 	
 	bool present::operator!=(const present & b)const{
 		return !(*this==b);
-	}
+	} 
 }
